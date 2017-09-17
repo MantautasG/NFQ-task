@@ -1,0 +1,120 @@
+@font-face
+{
+	font-family: OpenSanse;
+	src: url(../inc/open-sans/OpenSans-Italic.ttf);
+}
+body {
+	font: 14px OpenSanse !important;
+}
+.logotipas img{
+	width:160px;
+}
+.mobile_menu{
+	display: none;
+}
+.paraiska_tekstas {
+	font-size: 14px;
+}
+#wrap {
+	width: 120px; 
+	height: 50px; 
+	margin: 0; 
+	z-index: 1; 
+    border-radius: 10px 10px;
+    display: block;
+	}
+.navbar	{
+	border-radius: 10px 10px;
+	padding: 0;
+	margin: 0;
+	margin-top: 10px;
+	position: fixed; 
+	border-right: 0px solid white; 
+    z-index: 12;
+	box-shadow: 3px 3px 4px gray;
+	border: 1px solid gray; 
+	left: 1em;
+	background-color: #333;
+	}
+.navbar p{
+	padding:0px;
+	margin:0px;
+	vertical-align:middle;
+}
+.navbar li 	{
+    padding-bottom: 10px;
+	height: auto;
+	width: 120px;  
+
+    object-position: top;
+	text-align: left; 
+	list-style: none;  
+	
+	font: 12px OpenSanse !important;
+
+	padding: 0;
+	margin: -1;
+	
+}
+
+.navbar a {		
+	padding: 5px 0; 
+	text-decoration: none !important;  
+	color: #000;
+	display: block;
+	padding: 5px;
+	outline: none;
+}
+
+.navbar a:hover {
+	color: red !important; 
+}
+
+.navbar li ul 	{
+		display: none; 
+		margin: 0; 
+		padding: 0; 
+        margin-left:120px;
+        float:left;
+        margin-top: -25px;
+        height: 0;
+		}				
+
+@media only screen and (min-width: 280px) and (max-width: 1024px) {
+  #wrap {
+    display:none;
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 1024px) {
+  .mobile_menu {
+    display:block;
+    padding-left: 20px!important;
+  }
+
+  body > div {
+  	padding-left: 0em!important;
+  }
+}
+
+@media only screen and (min-height: 280px) and (max-height: 1024px) {
+  #wrap {
+    display:none;
+  }
+}
+
+@media only screen and (min-height: 280px) and (max-height: 1024px) {
+  .mobile_menu {
+    display:block;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .mobile_menu {
+    display:none;
+  }
+  #wrap {
+  	display:block;
+  }
+}
+
