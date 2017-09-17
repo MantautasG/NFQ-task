@@ -12,13 +12,13 @@ session_start();
 
 $messages=array();
 
-define("DBHOST", "localhost");
+define("DBHOST", "eu-cdbr-west-01.cleardb.com");
 define("DBUSER", "bf2381c596a840");
 define("DBPASSWORD", "d408a0fa");
 define("DBNAME", "heroku_5b4c176d326c33a");
 
 /*DB*/
-$dbhost="localhost";
+$dbhost="eu-cdbr-west-01.cleardb.com";
 $dbuser="bf2381c596a840";
 $dbpass="d408a0fa";
 $dbname="heroku_5b4c176d326c33a";
