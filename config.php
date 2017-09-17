@@ -13,15 +13,15 @@ session_start();
 $messages=array();
 
 define("DBHOST", "localhost");
-define("DBUSER", "root");
-define("DBPASSWORD", "");
-define("DBNAME", "nfq");
+define("DBUSER", "bf2381c596a840");
+define("DBPASSWORD", "d408a0fa");
+define("DBNAME", "heroku_5b4c176d326c33a");
 
 /*DB*/
 $dbhost="localhost";
-$dbuser="root";
-$dbpass="";
-$dbname="nfq";
+$dbuser="bf2381c596a840";
+$dbpass="d408a0fa";
+$dbname="heroku_5b4c176d326c33a";
 
 $pvm_dydis = 21;
 
